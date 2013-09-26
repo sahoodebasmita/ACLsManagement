@@ -1,7 +1,6 @@
 ACL Manangement Automation
 ==========================
 
-my sample projects
 
 1. Giving ACL to user directory for last modified files on Windows Envirnoment. 
 
@@ -14,10 +13,10 @@ SET UP CONFIGURATION.
 
 1.	Create a folder called “GoogleDrive” in user’s home directory
 
-Paste following files in the “[user.home]/GoogleDrive” directory after extracting the ACL.rar
+Paste following files in the “[user.home]/GoogleDrive” directory after extracting the archive file
 •	users.txt  [Used to have all domain users for whom the ACLs will be set]
 •	settings.properties [Used to keep track of last execution time]
-Or else copy the “GoogleDrive” directory present in the .rar file  to user.home directory.
+
 
 2.	Copy following files into any preferable directory.
 •	ACL.jar [the program responsible for setting ACLs on modified files since last execution]
